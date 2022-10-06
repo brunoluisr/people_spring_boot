@@ -8,7 +8,7 @@ public class PeopleController {
 	
 		@GetMapping("/")
 		public String index() {
-				return "Hello, World!";
+			return "Hello, World!";
 		}
 		
 }
