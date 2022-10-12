@@ -1,7 +1,7 @@
-package BLBR.REPRO.COM.PeopleMS.api;
+package br.com.ribeiro.bruno.peoplems.api;
 
-import BLBR.REPRO.COM.PeopleMS.model.Person;
-import BLBR.REPRO.COM.PeopleMS.service.PersonService;
+import br.com.ribeiro.bruno.peoplems.model.Person;
+import br.com.ribeiro.bruno.peoplems.service.PersonService;
 
 public class PersonController {
     private final PersonService personService;

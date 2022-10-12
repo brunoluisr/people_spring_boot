@@ -1,6 +1,6 @@
-package BLBR.REPRO.COM.PeopleMS.dao;
+package br.com.ribeiro.bruno.peoplems.dao;
 
-import BLBR.REPRO.COM.PeopleMS.model.Person;
+import br.com.ribeiro.bruno.peoplems.model.Person;
 
 import java.util.UUID;
 

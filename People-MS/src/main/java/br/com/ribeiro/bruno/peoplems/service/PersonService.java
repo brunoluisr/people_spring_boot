@@ -1,7 +1,7 @@
-package BLBR.REPRO.COM.PeopleMS.service;
+package br.com.ribeiro.bruno.peoplems.service;
 
-import BLBR.REPRO.COM.PeopleMS.dao.PersonDao;
-import BLBR.REPRO.COM.PeopleMS.model.Person;
+import br.com.ribeiro.bruno.peoplems.dao.PersonDao;
+import br.com.ribeiro.bruno.peoplems.model.Person;
 
 public class PersonService {
 
