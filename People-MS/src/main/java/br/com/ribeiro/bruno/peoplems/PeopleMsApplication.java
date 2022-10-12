@@ -1,4 +1,4 @@
-package BLBR.REPRO.COM.PeopleMS;
+package br.com.ribeiro.bruno.peoplems;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

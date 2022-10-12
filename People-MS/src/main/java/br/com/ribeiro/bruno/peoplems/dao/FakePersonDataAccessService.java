@@ -1,6 +1,6 @@
-package BLBR.REPRO.COM.PeopleMS.dao;
+package br.com.ribeiro.bruno.peoplems.dao;
 
-import BLBR.REPRO.COM.PeopleMS.model.Person;
+import br.com.ribeiro.bruno.peoplems.model.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,7 @@ public class FakePersonDataAccessService  implements PersonDao {
     private static List<Person> DB = new ArrayList<>();
     @Override
     public int insertPerson(UUID id, Person person) {
-        DB.add(new Person(id, person.getName()));
+        DB.add(new Person(id, person.getName(), person.getSurname()));
         return 1;
     }
 }
